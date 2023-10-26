@@ -25,7 +25,7 @@ class myApp extends StatelessWidget {
               //curve the corners
               borderRadius: BorderRadius.circular(20),
             ),
-            padding: EdgeInsets.symmetric(horizontal: 11, vertical: 12),
+            padding: EdgeInsets.symmetric(horizontal: 11, vertical: 12), //used for getting padding at edges
             child: Text(
               "My app",
               style: TextStyle(
